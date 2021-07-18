@@ -1,4 +1,4 @@
-FROM php:8.0-fpm
+FROM php:8.0
 
 RUN apt-get update -y
 RUN apt-get -y install gcc make autoconf libc-dev pkg-config libzip-dev
